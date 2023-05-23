@@ -1,5 +1,4 @@
-FROM alpine:latest
+FROM nginx:alpine
 
-COPY . C://
-
-RUN dir C://
+COPY src/youtube.html  /usr/share/nginx/html/index.html
+COPY src/  /usr/share/nginx/html/
