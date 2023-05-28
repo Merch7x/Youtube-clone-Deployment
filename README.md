@@ -1,1 +1,2 @@
-# Static-Webpage-K8s-Deployment
+# Youtube_clone-K8s-Deployment
+This project deploys a static youtube clone webpage. The raw files are first dockerized then deployed through argo to multiple K8s clusters provisioned using terraform on Linode Kubernetes Engine.
